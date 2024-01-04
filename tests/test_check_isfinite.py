@@ -2,7 +2,7 @@ import unittest
 from isfinite import check_isfinite
 
 
-class TestCheckIsFiniteFunction(unittest.TestCase):
+class test_check_isfinite_function(unittest.TestCase):
     def test_finite_numbers(self):
         self.assertTrue(check_isfinite(42.0))
         self.assertTrue(check_isfinite(0))
